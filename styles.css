@@ -3,6 +3,23 @@
 * {
   box-sizing: border-box;
 }
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a0a0a0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(92, 92, 92);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(78, 78, 78);
+}
 body {
   font-family: "Lato", sans-serif;
   background-color: #282828;
